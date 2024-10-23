@@ -1,0 +1,2 @@
+This is also one of the methods for thread synchronization the main advantage of rlock over lock is that rlock can be acquired and 
+released multiple times without our system crashing
