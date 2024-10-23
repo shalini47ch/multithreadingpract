@@ -1,0 +1,16 @@
+This is a bug in multithreading and it occurs when two threads tries to access the same 
+variable resulting in unreliable output.
+
+Race Condition can be controlled by using locks,Rlocks or semaphores
+
+Steps for creating a lock along with acquire and release locks
+
+from threading import *
+
+mylock=Lock()
+mylock.acquire() #this is meant for locking
+mylock.release() #this is meant for unlocking
+
+
+#acquire has two parameters
+mylock.acquire([blocking=True],timeout=-1)
