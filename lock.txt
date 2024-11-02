@@ -1,0 +1,3 @@
+Lock is imported from the threading module in python amd it makes sure that no two threads access the same database simultaneoulsy 
+Lock generally has two methods one is calledas the acquire and the other is called as release lock
+These help to prevent the problem of deadlock,race condition and starvation
